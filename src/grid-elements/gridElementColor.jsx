@@ -22,6 +22,9 @@ border-style: solid;
 
 
 /*
+Una implementación simple de un elemento de cuadrícula construido en componentes de estilo
+   https://www.styled-components.com/docs/basics
+
   A simple implementation of a grid element built on Styled components
   https://www.styled-components.com/docs/basics    
 */
