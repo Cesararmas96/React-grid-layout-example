@@ -18,14 +18,15 @@ import { subscriberGrid } from "../framework/models/subscriberGrid";
                 subscribeToChannel() is part of the framework just like unsubscribe(), these are the only methods needed.
                 What has to be implemented here on the implementing side is the map to keep track of the subscriptions (if we wan to be able to unsubscribe).
             */
-            subscriptions: new Map(),
-            running: false,
-            locked: false,
-            changedByUser: 0,
-            showInfoSidebar: false,
+            // subscriptions: new Map(),
+            // running: false,
+            // locked: false,
+            // changedByUser: 0,
+            // showInfoSidebar: false,
         }
     }
-     
+
+ 
     onLockAllClick = (event) => {
 
         for (var i = 0; i < subscriberGrid.count; i++) {
